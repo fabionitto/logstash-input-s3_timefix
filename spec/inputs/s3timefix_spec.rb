@@ -1,7 +1,7 @@
 # encoding: utf-8
 require "logstash/devutils/rspec/spec_helper"
 require "logstash/devutils/rspec/shared_examples"
-require "logstash/inputs/s3"
+require "logstash/inputs/s3timefix"
 require "logstash/codecs/multiline"
 require "logstash/errors"
 require "aws-sdk-resources"
