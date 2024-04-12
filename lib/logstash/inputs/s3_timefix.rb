@@ -30,7 +30,7 @@ class LogStash::Inputs::S3 < LogStash::Inputs::Base
   include LogStash::PluginMixins::AwsConfig::V2
   include LogStash::PluginMixins::ECSCompatibilitySupport(:disabled, :v1, :v8 => :v1)
 
-  config_name "s3"
+  config_name "s3_timefix"
 
   default :codec, "plain"
 
