@@ -1,5 +1,5 @@
 require "logstash/devutils/rspec/spec_helper"
-require "logstash/inputs/s3"
+require "logstash/inputs/s3_timefix"
 require "aws-sdk"
 require "fileutils"
 require_relative "../support/helpers"
