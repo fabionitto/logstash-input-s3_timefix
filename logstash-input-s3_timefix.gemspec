@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
 
-  s.name            = 'logstash-input-s3-time-fix'
+  s.name            = 'logstash-input-s3_timefix'
   s.version         = '3.8.4'
   s.licenses        = ['Apache-2.0']
   s.summary         = "Streams events from files in a S3 bucket"
