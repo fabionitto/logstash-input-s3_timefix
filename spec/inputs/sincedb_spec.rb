@@ -1,6 +1,6 @@
 # encoding: utf-8
 require "logstash/devutils/rspec/spec_helper"
-require "logstash/inputs/s3"
+require "logstash/inputs/s3timefix"
 require "stud/temporary"
 require "fileutils"
 
